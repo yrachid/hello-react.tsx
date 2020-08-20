@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App, {DEFAULT_PROPS} from './App';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
+import data from './data.json';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App {...DEFAULT_PROPS} />
+    <App estate = { data }/>
   </React.StrictMode>,
   document.getElementById('root')
 );

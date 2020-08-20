@@ -1,39 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Props} from './estate-property/EstateProperty';
+import {Price, Features, Address, EstateProperty} from './estate-property';
 
-function App(props: Props) {
-  const items = props.items.map(it => <li>{it}</li>);
+function App(props: MainProps) {
+  const ap = props.estate[0];
+  const items =Array.from({length: 20}, (x, i) =>
+    <EstateProperty
+      size={ap.size} 
+      features={ap.features}
+      address={ap.address}
+      price={ap.price}
+      key={i}/>);
 
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>{props.title}</h1>
-        <ul>
-          {items}
-        </ul>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <section className="App-body">
+        <section className="estate-properties">
+          {items}
+        </section>
+      </section>
     </div>
   );
 }
 
-export interface Props {
-  title: string,
-  items: Array<string>
-};
-
-export const DEFAULT_PROPS: Props = {
-  title: 'Hello',
-  items: ['A', 'B', 'C']
-};
+export interface MainProps {
+  estate: Array<Props>,
+}
 
 export default App;
