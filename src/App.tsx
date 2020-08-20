@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import {Props} from './estate-property/EstateProperty';
-import {Price, Features, Address, EstateProperty} from './estate-property';
+import {PropertyAttributes as EstatePropertyAttributes} from './domain';
+import {EstateProperty} from './estate-property'
 
 function App(props: MainProps) {
   const ap = props.estate[0];
@@ -27,7 +27,7 @@ function App(props: MainProps) {
 }
 
 export interface MainProps {
-  estate: Array<Props>,
+  estate: Array<EstatePropertyAttributes>,
 }
 
 export default App;

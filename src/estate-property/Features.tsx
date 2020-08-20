@@ -1,7 +1,6 @@
 import React from 'react';
-import car from './car.svg';
-import bed from './bed.svg';
-import shower from './shower.svg';
+import {car, bed, shower} from './images';
+import {Features as Props} from '../domain'
 
 const Feature = (iconSrc: string) => (props: FeatureProps) => (
     <span className="feature">
@@ -24,12 +23,6 @@ function Features(props: Props) {
 
 interface FeatureProps {
     quantity: number
-}
-
-interface Props {
-    bedrooms: number,
-    bathrooms: number,
-    parkingSpaces: number
 }
 
 export default Features;
