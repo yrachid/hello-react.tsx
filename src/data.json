@@ -1,5 +1,6 @@
 [
   {
+    "type": "Apartamento",
     "size": 65,
     "features": {
       "bedrooms": 2,

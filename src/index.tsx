@@ -7,7 +7,7 @@ import data from './data.json';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App estate = { data }/>
+    <App realties = { data }/>
   </React.StrictMode>,
   document.getElementById('root')
 );

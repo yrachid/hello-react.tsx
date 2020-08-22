@@ -1,5 +1,7 @@
 import React from 'react';
-import {car, bed, shower} from './images';
+import car from './images/car.svg';
+import bed from './images/bed.svg';
+import shower from './images/shower.svg';
 import {Features as Props} from '../domain'
 
 const Feature = (iconSrc: string) => (props: FeatureProps) => (
@@ -14,7 +16,7 @@ const ParkingSpaces = Feature(car);
 
 function Features(props: Props) {
     return (
-      <section className = "estate-property-features">
+      <section className = "Realty-features">
         <Bedrooms quantity={props.bedrooms} />
         <Bathrooms quantity={props.bathrooms} />
         <ParkingSpaces quantity={props.bathrooms} />

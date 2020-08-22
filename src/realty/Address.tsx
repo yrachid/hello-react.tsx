@@ -1,17 +1,11 @@
 import React from 'react';
+import {Address as Props} from '../domain';
 
-function Address(props: Props) {
-    return (
-        <div>
-            <p>{props.neighborhood}</p>
-            <small>{props.city}</small>
-        </div>
-    );
-}
-
-interface Props {
-    neighborhood: string
-    city: string
-}
+const Address = (props: Props) => (
+    <div>
+        <p>{props.street}</p>
+        <p>{props.neighborhood}</p>
+        <small>{props.city},{props.state}</small>
+    </div>);
 
 export default Address;

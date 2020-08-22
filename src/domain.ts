@@ -1,26 +1,25 @@
-interface Price {
+export interface Price {
   amount: number
   currency: string
 }
 
-interface Address {
+export interface Address {
   city: string
   neighborhood: string
   state: string
   street: string
 }
 
-interface Features {
+export interface Features {
   bedrooms: number
   bathrooms: number
   parkingSpaces: number
 }
 
-interface PropertyAttributes {
+export interface RealtyAttributes {
+  type: string,
   size: number
   features: Features
   address: Address
   price: Price
 }
-
-export type {Price, Address, Features, PropertyAttributes};
