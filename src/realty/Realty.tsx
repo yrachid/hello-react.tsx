@@ -1,6 +1,6 @@
 import React from 'react';
 import {Price, Features, Address} from '.';
-import {PropertyAttributes as Props} from '../domain'
+import {RealtyAttributes as Props} from '../domain'
 
 function Realty(props: Props) {
     return (<section className="Realty">
