@@ -1,9 +1,10 @@
 import React from 'react';
+import './Realty.css';
 import {Price, Features, Address} from '.';
 import {RealtyAttributes as Props} from '../domain'
 
 function Realty(props: Props) {
-    return (<section className="Realty">
+    return (<section className="realty">
       <small>{props.type}</small>
       <Price amount={props.price.amount} currency={props.price.currency}/>
       <Features bedrooms={props.features.bedrooms} bathrooms={props.features.bathrooms} parkingSpaces={props.features.parkingSpaces} />

@@ -4,15 +4,15 @@ import bed from './images/bed.svg';
 import shower from './images/shower.svg';
 import {Features as Props} from '../domain'
 
-const Feature = (iconSrc: string) => (props: FeatureProps) => (
+const Feature = (iconSrc: string, alternativeText: string) => (props: FeatureProps) => (
     <span className="feature">
-        <img src={iconSrc} />
+        <img src={iconSrc} alt={alternativeText}/>
         {props.quantity}
     </span>);
 
-const Bedrooms = Feature(bed);
-const Bathrooms = Feature(shower);
-const ParkingSpaces = Feature(car);
+const Bedrooms = Feature(bed, 'bedrooms');
+const Bathrooms = Feature(shower, 'bathrooms');
+const ParkingSpaces = Feature(car, 'parking spaces');
 
 function Features(props: Props) {
     return (

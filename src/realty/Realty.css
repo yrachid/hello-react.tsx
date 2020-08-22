@@ -1,0 +1,7 @@
+.realty {
+  flex-grow: 0;
+  min-width: 270px;
+  max-height: 270px;
+  background-color: #FFFFFF;
+  margin: 3px 3px 3px 3px;
+}

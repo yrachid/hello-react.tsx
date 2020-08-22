@@ -1,5 +1,6 @@
 import React from 'react';
 import {Price as Props} from '../domain';
+import './Price.css';
 
 const NUMBER_CHUNK_SIZE = 3;
 const CURRENCY_SEPARATOR = '.';
@@ -19,6 +20,6 @@ const formatAmount = (value: number): string => {
         : splitIntoChunks(value.toString()).join(CURRENCY_SEPARATOR);
 };
 
-const Price = (props: Props) => <h1>{formatCurrency(props.currency) + formatAmount(props.amount)}</h1>;
+const Price = (props: Props) => <span className="price-tag">{formatCurrency(props.currency) + formatAmount(props.amount)}</span>;
 
 export default Price;
