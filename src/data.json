@@ -17,5 +17,119 @@
       "amount": 300000,
       "currency": "BRL"
     }
+  },
+  {
+    "type": "Apartamento",
+    "size": 65,
+    "features": {
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parkingSpaces": 1
+    },
+    "address": {
+      "city": "Porto Alegre",
+      "neighborhood": "Chacara das Pedras",
+      "state": "RS",
+      "street": "Avenida Barbosa Goncalves"
+    },
+    "price": {
+      "amount": 300000,
+      "currency": "BRL"
+    }
+  },
+  {
+    "type": "Apartamento",
+    "size": 65,
+    "features": {
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parkingSpaces": 1
+    },
+    "address": {
+      "city": "Porto Alegre",
+      "neighborhood": "Chacara das Pedras",
+      "state": "RS",
+      "street": "Avenida Barbosa Goncalves"
+    },
+    "price": {
+      "amount": 300000,
+      "currency": "BRL"
+    }
+  },
+  {
+    "type": "Apartamento",
+    "size": 65,
+    "features": {
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parkingSpaces": 1
+    },
+    "address": {
+      "city": "Porto Alegre",
+      "neighborhood": "Chacara das Pedras",
+      "state": "RS",
+      "street": "Avenida Barbosa Goncalves"
+    },
+    "price": {
+      "amount": 300000,
+      "currency": "BRL"
+    }
+  },
+  {
+    "type": "Apartamento",
+    "size": 65,
+    "features": {
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parkingSpaces": 1
+    },
+    "address": {
+      "city": "Porto Alegre",
+      "neighborhood": "Chacara das Pedras",
+      "state": "RS",
+      "street": "Avenida Barbosa Goncalves"
+    },
+    "price": {
+      "amount": 300000,
+      "currency": "BRL"
+    }
+  },
+  {
+    "type": "Apartamento",
+    "size": 65,
+    "features": {
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parkingSpaces": 1
+    },
+    "address": {
+      "city": "Porto Alegre",
+      "neighborhood": "Chacara das Pedras",
+      "state": "RS",
+      "street": "Avenida Barbosa Goncalves"
+    },
+    "price": {
+      "amount": 300000,
+      "currency": "BRL"
+    }
+  },
+  {
+    "type": "Apartamento",
+    "size": 65,
+    "features": {
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parkingSpaces": 1
+    },
+    "address": {
+      "city": "Porto Alegre",
+      "neighborhood": "Chacara das Pedras",
+      "state": "RS",
+      "street": "Avenida Barbosa Goncalves"
+    },
+    "price": {
+      "amount": 300000,
+      "currency": "BRL"
+    }
   }
 ]

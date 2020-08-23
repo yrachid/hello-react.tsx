@@ -28,16 +28,3 @@
   color: #61dafb;
 }
 
-.Realty-features {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-
-.feature {
-  margin-right: 5px;
-}
-
-.feature-icon {
-  width: 1.25em;
-}

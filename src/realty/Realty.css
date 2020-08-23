@@ -1,7 +1,14 @@
 .realty {
   flex-grow: 0;
-  min-width: 270px;
-  max-height: 270px;
+  max-width: 14vw;
+  max-height: 14vw;
   background-color: #FFFFFF;
-  margin: 3px 3px 3px 3px;
+  margin-right: .5vw;
+  padding: 1vh 1vw 1vh 1vw;
+}
+
+.realty-type {
+  color: #545558;
+  text-transform: capitalize;
+  font-size: .8em;
 }

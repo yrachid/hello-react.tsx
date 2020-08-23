@@ -1,0 +1,11 @@
+- [ ] Individual vertical-align for each feature icon
+- [ ] Wrap address text
+- [ ] Increase Price vertical margin
+- [ ] Draw new feature icons
+- [ ] Adjust margin/padding of realty list
+  - [ ] Test grid layout instead of flexbox
+- [ ] Realty list item
+  - [ ] Show size
+- [ ] Filter bar
+  - [ ] Neighborhood
+  - [ ] Price range

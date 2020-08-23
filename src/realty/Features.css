@@ -1,0 +1,16 @@
+.features {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.feature {
+  margin-right: 5px;
+  color: #878f9b;
+}
+
+.feature-icon {
+  height: 1em;
+  width: 1em;
+  vertical-align: -.145rem;
+  margin: .125rem;
+}
